@@ -36,7 +36,7 @@ export default class PluginViewer extends React.Component {
         />
         <PluginView
           style={{ height: '92%', overflow: 'scroll' }}
-          plugin={this.state.selected.plugin}
+          plugin={this.state.selected}
           {...other}
         />
       </div>

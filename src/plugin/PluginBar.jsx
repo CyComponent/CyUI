@@ -29,7 +29,7 @@ export default class PluginBar extends React.Component {
                 style={this.isSelected(P)}
                 onClick={this.handleSelect.bind(this, P)}
               >
-                {P.iconName}
+                {P.icon}
               </FontIcon>)
             )}
           </ToolbarGroup>
