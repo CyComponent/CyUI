@@ -27,6 +27,7 @@ export default class ExamplePicker extends React.Component {
   }
 
   onClick(value) {
+    this.props.updateQuery(value)
     this.props.search(value)
     this.handleRequestClose()
   }
